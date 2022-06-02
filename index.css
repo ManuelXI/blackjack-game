@@ -1,0 +1,96 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background: url("images/table.png");
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 45px;
+}
+
+p {
+  font-size: 24px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  background: goldenrod;
+  width: 200px;
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 5px 0 2px;
+}
+input {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 5px 5px 8px;
+  margin: 10px auto;
+  text-align: center;
+  background: none;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: -10px;
+  border-width: 0 0 3px 0;
+  border-bottom-color: goldenrod;
+  width: 200px;
+  border-radius: 8px;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+#details-el {
+  margin-bottom: 25px;
+}
+
+#transac-el {
+  font-size: 18px;
+  margin-top: -10px;
+  color: lightgoldenrodyellow;
+}
+
+.animated {
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}

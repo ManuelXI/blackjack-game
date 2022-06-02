@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>♠ Blackjack ♠</h1>
+    <p id="message-el">Want to play a round?</p>
+    <div id="details-el">
+      <p>Enter your name</p>
+      <input type="text" id="input-el" value="🃏" /><br />
+      <button onclick="submitName()" >Submit</button>
+    </div>
+    <p id="cards-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button id="start-el" onclick="startGame()">START GAME</button>
+    <button id="newCard-el" onclick="newCard()">NEW CARD</button>
+    <p id="player-el"></p>
+    <p id="transac-el" class="animated fadeOut"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
